@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мой сайт — О проекте</title>
+    <meta name="description" content="О проекте: grid и карточки." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true">E</div>
+          <div>
+            <h1 style="margin:0;">О проекте</h1>
+            <p style="margin:0; opacity:.9;">Grid + box model</p>
+          </div>
+        </div>
+
+        <nav aria-label="Основная навигация">
+          <a href="index.html">Главная</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="about.html">О проекте</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="card">
+        <h2>Что я использовал</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Доступность</h3>
+            <p>Skip-link виден только при фокусе, хорошие цвета, читаемые размеры.</p>
+            <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1200&q=60" alt="Человек работает за ноутбуком и пишет заметки" />
+          </div>
+
+          <div class="card">
+            <h3>Grid и Flex</h3>
+            <p>Эта страница использует grid, а галерея использует flex + wrap.</p>
+            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=60" alt="Диаграммы и графики на экране" />
+          </div>
+
+          <div class="card">
+            <h3>Hover и эффекты</h3>
+            <p>На ссылках и изображениях есть hover + небольшие transitions.</p>
+            <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1200&q=60" alt="Интерфейс приложения на экране телефона" />
+          </div>
+
+          <div class="card">
+            <h3>Валидаторы</h3>
+            <p>Проверяю HTML через W3C и доступность через WAVE.</p>
+            <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?auto=format&fit=crop&w=1200&q=60" alt="Человек проверяет сайт на экране ноутбука" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p style="margin:0;">© 2026 • Автор: Ваше имя</p>
+        <p style="margin:0;"><a href="#main-content">Наверх</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
