@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мой сайт — Главная</title>
+    <meta name="description" content="Финальный проект: HTML + CSS, доступность, grid/flex, hover, nth-child." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true">E</div>
+          <div>
+            <h1 style="margin:0;">Мой финальный сайт</h1>
+            <p style="margin:0; opacity:.9;">HTML + CSS • Доступность • Grid/Flex</p>
+          </div>
+        </div>
+
+        <nav aria-label="Основная навигация">
+          <a href="index.html">Главная</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="about.html">О проекте</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="card">
+        <h2>Добро пожаловать</h2>
+        <p>
+          Это финальный проект. Здесь есть skip-link, навигация на flex, страницы с grid и flex,
+          hover-эффекты и nth-child. Все изображения оформлены через box model.
+        </p>
+
+        <figure style="margin:0;">
+          <img
+            src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1200&q=60"
+            alt="Рабочий стол с ноутбуком и открытым редактором кода"
+          />
+          <figcaption style="margin-top:8px; color:#374151; font-size:14px;">
+            Главное изображение для главной страницы
+          </figcaption>
+        </figure>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p style="margin:0;">© 2026 • Автор: Ваше имя</p>
+        <p style="margin:0;"><a href="#main-content">Наверх</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
