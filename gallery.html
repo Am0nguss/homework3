@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мой сайт — Галерея</title>
+    <meta name="description" content="Галерея: flex, hover, nth-child." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header>
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-logo" aria-hidden="true">E</div>
+          <div>
+            <h1 style="margin:0;">Галерея</h1>
+            <p style="margin:0; opacity:.9;">Flex + nth-child</p>
+          </div>
+        </div>
+
+        <nav aria-label="Основная навигация">
+          <a href="index.html">Главная</a>
+          <a href="gallery.html">Галерея</a>
+          <a href="about.html">О проекте</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="card">
+        <h2>5+ изображений</h2>
+        <p>Каждая вторая картинка имеет другой border-radius (nth-child).</p>
+
+        <div class="flex" aria-label="Галерея изображений">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=1200&q=60" alt="Абстрактный экран с цифровыми символами" />
+            <figcaption>Изображение 1</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=60" alt="Горы на рассвете и туман в долине" />
+            <figcaption>Изображение 2</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=60" alt="Код на экране ноутбука крупным планом" />
+            <figcaption>Изображение 3</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=60" alt="Команда людей обсуждает проект за столом" />
+            <figcaption>Изображение 4</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1200&q=60" alt="Экран с программным кодом в редакторе" />
+            <figcaption>Изображение 5</figcaption>
+          </figure>
+
+          <figure>
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=60" alt="Абстрактная визуализация данных и графики" />
+            <figcaption>Изображение 6</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <p style="margin:0;">© 2026 • Автор: Ваше имя</p>
+        <p style="margin:0;"><a href="#main-content">Наверх</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
